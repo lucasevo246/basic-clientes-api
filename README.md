@@ -1,15 +1,15 @@
 <b> API - CRUD de clientes em Java </b>
 
-Desenvolvido em Spring Boot , Jpa, banco H2(memória)
+Desenvolvido em Spring Boot , Jpa, banco H2(memória) <br>
 
-========== <b> Inicialização Rápida pelo CMD </b>=======
- Baixar código fonte, rodar os seguintes comandos no cmd :
+========== <b> Inicialização Rápida pelo CMD </b> ======= <br>
+ Baixar código fonte, rodar os seguintes comandos no cmd : <br>
   -cd target
   -java -jar algacrm-api-0.0.1-SNAPSHOT.jar
   
   
-
-========= <b> Chamadas Api </b> =================
+<br>
+========= <b> Chamadas Api </b> ================= <br>
 
 -----
 URL - http://localhost:8080/clientes
