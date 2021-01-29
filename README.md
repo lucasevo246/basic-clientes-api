@@ -2,7 +2,7 @@
 <br>
 Desenvolvido em Spring Boot , Jpa, banco H2(memória) <br>
 
-========== <b> Inicialização Rápida pelo CMD </b> ======= <br>
+ <b> Inicialização Rápida pelo CMD </b>  <br>
  Baixar código fonte, rodar os seguintes comandos no cmd : <br>
   -cd target 
   <br>
@@ -11,7 +11,8 @@ Desenvolvido em Spring Boot , Jpa, banco H2(memória) <br>
   
   
 <br>
-========= <b> Chamadas Api </b> ================= <br>
+ <b> Chamadas Api </b> 
+ <br>
 
 -----
 URL - http://localhost:8080/clientes <br>
@@ -30,7 +31,7 @@ Body: <br>
 }
 <br>
 Resposta :  <br>
-{
+{  <br>
     "id": 1, <br>
     "nome": "Lucas", <br>
     "cel": "(11) 2222-2222", <br>
@@ -42,7 +43,7 @@ Resposta :  <br>
 URL - localhost:8080/clientes/update/1 <br>
 Request Method - PUT <br>
 Body: <br>
-{
+{ <br>
     "nome" : "Lucas", <br>
     "cel" : "(11) 5555-5555"<br>
 }
