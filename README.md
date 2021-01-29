@@ -1,8 +1,9 @@
 <b> API - CRUD de clientes em Java </b>
 <br>
+<br>
 Desenvolvido em Spring Boot , Jpa, banco H2(memória) <br>
 
- <b> Inicialização Rápida pelo CMD </b>  <br>
+ <b> Inicialização Rápida pelo CMD </b>  <br> <br>
  Baixar código fonte, rodar os seguintes comandos no cmd : <br>
   -cd target 
   <br>
@@ -25,7 +26,7 @@ Resposta : Listagem de clientes <br>
 URL - localhost:8080/clientes <br>
 Request Method - POST <br>
 Body: <br>
-{
+{ <br>
     "nome" : "Lucas", <br>
     "cel" : "(11) 2222-2222" <br>
 }
