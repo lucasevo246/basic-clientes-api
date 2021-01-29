@@ -1,9 +1,9 @@
-<h1><b> API - CRUD de clientes em Java </b> </h1>
+<h3><b> API - CRUD de clientes em Java </b> </h3>
 <br>
 <br>
 Desenvolvido em Spring Boot , Jpa, banco H2(memória) <br>
 
-<h1> <b> Inicialização Rápida pelo CMD </b>  </h1><br> <br>
+<h3> <b> Inicialização Rápida pelo CMD </b>  </h3><br> 
  Baixar código fonte, rodar os seguintes comandos no cmd : <br>
   -cd target 
   <br>
@@ -12,7 +12,7 @@ Desenvolvido em Spring Boot , Jpa, banco H2(memória) <br>
   
   
 <br>
-<h1> <b> Chamadas Api </b>  </h1>
+<h3> <b> Chamadas Api </b>  </h3>
  <br>
 
 -----
