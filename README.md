@@ -1,6 +1,6 @@
 <h2><b> API - CRUD de clientes em Java </b> </h2>
 <br>
-<br>
+
 Desenvolvido em Spring Boot , Jpa, banco H2(memória) <br>
 
 <h2> <b> Inicialização Rápida pelo CMD </b>  </h2><br> 
