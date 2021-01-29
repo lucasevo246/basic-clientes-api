@@ -23,7 +23,7 @@ Resposta : Listagem de clientes <br>
 
 -----
 
-URL - localhost:8080/clientes <br>
+URL - http://localhost:8080/clientes  <br>
 Request Method - POST <br>
 Body: <br>
 { <br>
@@ -41,7 +41,7 @@ Resposta :  <br>
 
 ------
 <br>
-URL - localhost:8080/clientes/update/1 <br>
+URL - http://localhost:8080/clientes/update/1 <br>
 Request Method - PUT <br>
 Body: <br>
 { <br>
@@ -54,7 +54,7 @@ Resposta : 200 OK <br>
 
 ------ 
 
-URL - localhost:8080/clientes/delete/1  <br>
+URL - http://localhost:8080/delete/1  <br>
 Request Method - PUT <br>
 Resposta : 200 OK <br>
 
