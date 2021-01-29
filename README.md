@@ -1,55 +1,58 @@
 <b> API - CRUD de clientes em Java </b>
-
+<br>
 Desenvolvido em Spring Boot , Jpa, banco H2(memória) <br>
 
 ========== <b> Inicialização Rápida pelo CMD </b> ======= <br>
  Baixar código fonte, rodar os seguintes comandos no cmd : <br>
-  -cd target
+  -cd target 
+  <br>
   -java -jar algacrm-api-0.0.1-SNAPSHOT.jar
+  <br>
   
   
 <br>
 ========= <b> Chamadas Api </b> ================= <br>
 
 -----
-URL - http://localhost:8080/clientes
-Request Method - GET
+URL - http://localhost:8080/clientes <br>
+Request Method - GET <br>
 
-Resposta : Listagem de clientes
+Resposta : Listagem de clientes <br>
 
 -----
 
-URL - localhost:8080/clientes
-Request Method - POST
-Body:
+URL - localhost:8080/clientes <br>
+Request Method - POST <br>
+Body: <br>
 {
-    "nome" : "Lucas",
-    "cel" : "(11) 2222-2222"
+    "nome" : "Lucas", <br>
+    "cel" : "(11) 2222-2222" <br>
 }
-
-Resposta : 
+<br>
+Resposta :  <br>
 {
-    "id": 1,
-    "nome": "Lucas",
-    "cel": "(11) 2222-2222",
-    "data_cadastro": "2021-01-29T21:41:51.445+00:00"
-}
+    "id": 1, <br>
+    "nome": "Lucas", <br>
+    "cel": "(11) 2222-2222", <br>
+    "data_cadastro": "2021-01-29T21:41:51.445+00:00" <br>
+} 
 
 ------
-
-URL - localhost:8080/clientes/update/1
-Request Method - PUT
-Body:
+<br>
+URL - localhost:8080/clientes/update/1 <br>
+Request Method - PUT <br>
+Body: <br>
 {
-    "nome" : "Lucas",
-    "cel" : "(11) 5555-5555"
+    "nome" : "Lucas", <br>
+    "cel" : "(11) 5555-5555"<br>
 }
+<br>
 
-Resposta : 200 OK
+Resposta : 200 OK <br>
 
 ------ 
 
-URL - localhost:8080/clientes/delete/1
-Request Method - PUT
-Resposta : 200 OK
+URL - localhost:8080/clientes/delete/1  <br>
+Request Method - PUT <br>
+Resposta : 200 OK <br>
 
